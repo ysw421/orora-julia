@@ -8,4 +8,4 @@ orora는 수식과 가까운 프로그래밍 언어입니다.
 
 위는 orora 코드를 Latex로 변환한 이미지입니다. 수식을 통해 코드를 작성해보세요 :)
 
-[문법](grammar.md)
+[문법](docs/grammar.md)
