@@ -1,0 +1,6 @@
+f(a, b) = \begin{cases}
+b & a \mod b=0\\
+f(b, a \mod b) & else\\
+\end{cases}
+
+print(f(21, 14))

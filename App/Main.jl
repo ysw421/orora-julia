@@ -8,7 +8,7 @@ function orora(file_path::String)
         file = open(file_path, "r")
         content::String = read(file, String)
         close(file)
-        println(content)
+        # println(content)
 
         lexer(content, ["Main"])
     catch e

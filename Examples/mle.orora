@@ -16,7 +16,6 @@ n = 4
 \\\\
 \theta = (X^{T}X)^{-1}X^{T}Y
 \\\\
-#\overset{2}{Y} = X \theta
 
-print(\theta_{1})
-#\\
+print(\theta_{1}, ", ", \theta_{2})
+\\

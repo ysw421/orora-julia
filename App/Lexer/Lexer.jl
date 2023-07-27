@@ -73,10 +73,10 @@ function lexer(line::String, option::Array)
                 exit()
             end
         end
-        println("------------------------------------------------------------")
-        println("Laxer.jl")
-        println(token)
-        println("------------------------------------------------------------")
+        # println("------------------------------------------------------------")
+        # println("Laxer.jl")
+        # println(token)
+        # println("------------------------------------------------------------")
         run(token)
     elseif "Dearkelly" in option
         checkLexer(state, token)

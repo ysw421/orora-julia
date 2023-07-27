@@ -81,9 +81,9 @@ function run(
         end
     end
     if length(state_) === 0
-        println("------------------------------------------------------------")
-        println("Run.jl")
-        println(variables)
+        # println("------------------------------------------------------------")
+        # println("Run.jl")
+        # println(variables)
         # println(functions)
     end
     return [variables, functions, state_]
