@@ -1,0 +1,22 @@
+\\
+X = \begin{bmatrix}
+1&1\\
+1&2\\
+1&3\\
+1&4\\
+\end{bmatrix}
+\\\\
+
+Y=\begin{bmatrix}
+1.2\\1.8\\3.3\\4.1\\
+\end{bmatrix}
+\\\\
+
+n = 4
+\\\\
+\theta = (X^{T}X)^{-1}X^{T}Y
+\\\\
+#\overset{2}{Y} = X \theta
+
+print(\theta_{1})
+#\\
